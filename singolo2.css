@@ -26,16 +26,9 @@ ul {
     border-bottom: 6px solid #323746;
 }
 
-.portfolio {
-    height: 87
-}
-
 .portfolio h2 {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 69px;
-    padding-bottom: 27px;
-
+    padding: 69px 40px 27px 40px;
+    
     font-size: 30px;
     letter-spacing: 0.2px;
     line-height: 18px;
@@ -74,48 +67,51 @@ ul {
 
 .tag {
     padding: 0 6px;
-    border-radius: 5px;
     
     font-size: 12px;
     line-height: 22px;
-    
     font-family: "Lato";
     font-weight: 400;
     text-align: left;
+
+    border-radius: 5px;
 }
 
 .tag_selected {
     color: #c5c5c5;
+
     border: 1px solid #c5c5c5;
 }
 
 .tag_default {
     color: #767e9e;
+
     border: 1px solid #767e9e;
 }
 
 .tag:hover {
     color: #c5c5c5;
+
     border: 1px solid #c5c5c5;
     cursor: pointer;
 }
 
 .layout-4-column {
-    display: flex;
-    justify-content: space-between;
     padding-left: 40px;
     padding-right: 40px;
-
     height: 668px;
-
+    display: flex;
+    justify-content: space-between;
+    
     overflow: hidden;
 }
 
 .row {
     width: 220px;
     height: 187px;
-    overflow: hidden;
     margin-bottom: 20px;
+
+    overflow: hidden;
 }
 
 /* ---------------------------------PICTURES ADJUST------------------------------*/
@@ -191,16 +187,15 @@ ul {
     top: -175px;
 }
 
+/*-------------------------------------------------------------------------------------*/
+
 .about-us .wrapper {
     background-color: #f2f2f2;
     border-bottom: 6px solid #ffffff;
 }
 
 .about-us h2 {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 68px;
-    padding-bottom: 27px;
+    padding: 68px 40px 27px 40px;
 
     font-size: 30px;
     line-height: 18px;
@@ -220,7 +215,6 @@ ul {
     padding-right: 40px;
     padding-left: 40px;
     height: 509px;
-
     display: flex;
     justify-content: space-between;
 }
@@ -266,36 +260,6 @@ h3 {
 .person__contact-methods .contact-method__icon {
     margin-right: 3px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @font-face {
     font-family: 'Lato';
