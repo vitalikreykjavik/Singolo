@@ -238,6 +238,10 @@ h3 {
     font-family: "Lato";
     font-weight: 900;
     text-align: left;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .person__description {
