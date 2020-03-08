@@ -1,0 +1,278 @@
+body {
+	margin: 0;
+
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+h1, 
+h2, 
+h3, 
+p, 
+a, 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.get-a-quote h2 {
+  padding: 69px 40px 27px 40px;
+  
+  font-size: 30px;
+  letter-spacing: -0.02rem;
+  line-height: 18px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+}
+
+.get-a-quote_description {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 43px;
+
+  font-size: 18px;
+  line-height: 30px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 300;
+  text-align: left;
+}
+
+.get-a-quote .wrapper {
+  background-color: #f06c64;
+  border-bottom: 6px solid #ea676b;;
+}
+
+#name-field, 
+#email-field, 
+#subject-field,
+#project-field {
+  margin-bottom: 16px;
+  padding-left: 14px;
+} 
+
+
+input {
+  display: block;
+
+  width: 604px;
+  height: 36px;
+  border-radius: 5px;
+  background-color: #d6564f;
+  color: #ee8182;
+  border: none;
+
+  font-size: 12px;
+  line-height: 22px;
+  color: #f48c8f;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+}
+
+textarea {
+  display: block;
+  padding-top: 7px;
+
+  width: 603px;
+  height: 193px;
+  border-radius: 5px;
+  background-color: #d6564f;
+  color: #ee8182;
+  border: none;
+
+  font-size: 12px;
+  line-height: 22px;
+  color: #f48c8f;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+
+  resize: none;
+}
+
+#send-button:hover {
+  cursor: pointer;
+  /*border: 1px solid #fff;*/
+}
+
+/*#send-button {
+  width: 151px;
+  height: 36px;
+  border-radius: 5px;
+  background-color: #d6564f;
+  color: #ee8182;
+  border: none;
+
+  font-size: 12px;
+  line-height: 22px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 400;
+}*/
+
+.contacts-icons img {
+  display: block;
+}
+
+li {
+  list-style-type: none;
+}
+
+.footer .wrapper {
+  background-color: #2d303a;
+}
+
+.contact-info h3 {
+  padding-bottom: 10px;
+  
+  font-size: 18px;
+  line-height: 18px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+}
+
+.contact-description {
+  padding-bottom: 20px;
+  
+  font-size: 12px;
+  line-height: 22px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+}
+
+.contacts-icons {
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+.contacts-icons img{
+  display: block;
+  margin: 0 auto;
+}
+
+img:nth-child(1) {
+  padding-bottom: 10px;
+}
+
+img:nth-child(2) {
+  padding-bottom: 14px;
+}
+
+.contacts_list li {
+  font-size: 12px;
+  line-height: 21px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+}
+
+.contacts_list li:not(:last-child)  {
+  letter-spacing: -0.01rem;
+}
+
+.contacts_list a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 22px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+}
+
+.copyright-description {
+  color: #666d89;
+  font-size: 12px;
+}
+
+.company-contact-methods {
+  padding-top: 13px;
+  margin-right: -1px;
+}
+
+
+/*------------FLEX------------*/
+.layout-2-column {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 33px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.get-a-qoute_form {
+  width: 620px;
+}
+
+.contact-info {
+  width: 300px;
+}
+
+.contacts {
+  display: flex;
+}
+
+.footer-content {
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 76px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-contact-methods span:nth-child(3) {
+  margin-right: 3px;
+}
+
+.company-contact-methods span:nth-child(2) {
+  margin-right: 4px;
+}
+
+.company-contact-methods span:first-child {
+  margin-right: 3px;
+}
+/*-----------------------------------------------------------*/
+
+/*-----------------------------FONTS-------------------------*/
+@font-face {
+  font-family: 'Lato';
+  src: url('./assets/font/Lato-Light.woff') format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('./assets/font/Lato-Regular.woff') format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('./assets/font/Lato-Bold.woff') format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Lato';
+   src: url('./assets/font/Lato-Black.woff') format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
